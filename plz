@@ -1,0 +1,195 @@
+<html>
+<head>
+
+  <title>Neuroforce Golf</title>
+
+  <link rel = "icon" type = "image/png" href = "neuroforce_logo.png">
+  <!-- For apple devices -->
+  <link rel = "apple-touch-icon" type = "image/png" href = "neuroforce_logo.png"/>
+
+
+  <style>
+
+
+  /* html {
+  background: url(neuroforce_simonTransparent.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  } */
+
+  body {
+
+    width:100%; padding:0; margin:0 auto; font-family: Calibri, sans-serif;
+  }
+
+  .background_image {
+    background: url(neuroforce_simonTransparent.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    width:100%
+  }
+
+  .content {
+    width:80%; padding:100px;
+  }
+
+
+  h1 {text-align: center;}
+  p {text-align: center;}
+  div {
+    text-align: center;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th, td {
+    padding: 10px;
+  }
+  tr {background-color: #f2f2f2;}
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .paddedImage {
+    padding: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  #navbar {
+    border:1px solid black;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+  }
+
+  #navbar li {
+    position:relative;
+    display:inline;
+  }
+
+  #navbar a {
+    display:inline-block;
+    padding:10px;
+  }
+
+  #navbar ul{
+    position:absolute;
+    left:-9999px;
+    /* left: -9999px makes the sub-navigation bar hidden unless it is hovered on*/
+    margin:0;
+    padding:0;
+    text-align:left;
+  }
+
+  #navbar ul li{
+    display:block;
+  }
+
+  #navbar li:hover ul{
+    left:0;
+  }
+  #navbar li:hover a{
+    text-decoration:underline;
+    background:#f1f1f1;
+  }
+
+  #navbar li:hover ul a:hover{
+    text-decoration:underline;
+    background:#f1f1f1;
+  }
+  #navbar ul a{
+    white-space:nowrap;
+    display:block;
+    border-bottom:1px solid #ccc;
+  }
+
+  a{
+    color:#c00;
+    text-decoration:none;
+    font-weight:bold;
+  }
+  a:hover{
+    text-decoration:underline;
+    color:black;
+  }
+
+
+
+
+  /* end of style tag*/
+  </style>
+
+
+
+
+</head>
+
+<div class = "background_image">
+<div class = "content">
+  <body>
+    <h1>Neuroforce Golf!</h1>
+
+    <ul id="navbar">
+
+      <li><a class="active" href="/home/">Home</a></li>
+      <li><a href="/lessons/">Lessons</a></li>
+      <li><a href="/fittings/">Custom Fittings</a></li>
+      <li><a href="/repairs/">Repairs</a></li>
+      <li><a href="/contact/">Contact</a></li>
+      <li>
+        <a href="/more/">More</a>
+        <ul>
+          <li><a href="/news/">News</a></li>
+          <li><a href="/partners/">Our Partners</a></li>
+        </ul>
+      </li>
+
+
+    </ul>
+
+    <p>Call/Text us at:</p>
+    <p>(424)-345-0105 for Lessons</p>
+    <p>Email us at:</p>
+    <p>NeuroforceGolf@gmail.com for Lessons</p>
+
+    <!-- <img src="neuroforce_SimonPic.jpg" class=paddedImage alt="home page image"> -->
+
+    <table style="width:60%">
+      <tr>
+        <th>Service</th>
+        <th>Instructor</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Swing Evaluation</td>
+        <td>Dr. Giombetti</td>
+        <td>Free!</td>
+      </tr>
+      <tr>
+        <td>Repairs</td>
+        <td>Sal</td>
+        <td>$100</td>
+      </tr>
+    </table>
+  </body>
+</div>
+</div>
+
+
+</html>
